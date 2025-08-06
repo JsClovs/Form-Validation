@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+    <form action="send" method="post" class="form validate">
+        <label>Name</label>
+        <input type="text" name="name" class="name validate">
+
+        <label>SurName</label>
+        <input type="text" name="surName" class="surName validate">
+
+        <label>Username</label>
+        <input type="text" name="username" class="username validate">
+
+        <label>CPF</label>
+        <input type="text" name="cpf" class="cpf validate">
+
+        <label>Password</label>
+        <input type="text" name="password" class="password validate">
+        
+        <label>Repeat Password</label>
+        <input type="text" name="rpassword" class="rpassword validate">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="scripts/cpfValidator.js"></script>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
